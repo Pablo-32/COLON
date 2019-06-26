@@ -151,6 +151,9 @@ body {
 .bienvenida {
     color: red;
 }
+.footer a {
+    color: #DDD;
+}
 
 @keyframes typewriter {
     from {
