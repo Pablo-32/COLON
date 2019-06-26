@@ -92,6 +92,7 @@ body {
     border-radius: 5px;
     background: white;
     margin: auto;
+    
   }
   
   .form-email h3 { 
@@ -115,3 +116,69 @@ body {
   .footer p {
       color: white;
   }
+
+  .line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 160%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50);
+} 
+
+.anim-bienvenida {
+    position: relative;
+    top: 30%;
+    width: 20em;
+    margin: 0 auto;
+    /*border-right: 20px solid rgba(255, 255, 255, 0.75);*/
+    text-align: center;
+    white-space: nowrap;
+    /*overflow: hidden;transform: translateY(-50);*/
+    color: aqua;
+}
+
+/*animation*/
+
+.anim-typewriter {
+    animation: typewriter 8s steps(40) 1s infinite both,
+    blinkTextCursor 800ms steps(80) infinite normal;
+}
+
+.bienvenida {
+    color: red;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 650px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75)
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
